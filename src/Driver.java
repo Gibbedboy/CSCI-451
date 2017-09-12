@@ -5,20 +5,24 @@
  */
 
 import java.io.IOException;
-import java.util.Scanner;
 
-
-public class Driver {
+public class Driver{
 	
 	public static void main(String[] args) throws IOException
-	{
-		// Stuff will go into here.
-		String a, b;
+	{String a, b, c, d, e;
 		a = "aba";
+<<<<<<< HEAD
 		b = "ababaccccaba";
 		// Expected Matches Found At: 4, 6, 13
 		
+=======
+		b = "abacccababaddddddabaaaa";
+		c = "";
+		d = "";
+		e = "";
+		// Expected Matches Found At: 4, 6, 13
+>>>>>>> f40e4bbaa73897f9ef699dc55cfb1c41996d56aa
 		Zalgorithm DoIt = new Zalgorithm(a, b);
 	}
-	
+		// Stuff will go into here.
 }
